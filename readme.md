@@ -10,12 +10,6 @@ We investigated most existing dialogue datasets and summarize their basic inform
 
 We also include leader boards of some dataset to present research progress in the task oriented dialogue fields.
 
-## Call for Contributions
-Contributions are welcomed, you are encouraged to:
-- Directly pull request
-- Send me new dataset info
-- Send me new experiment results from published paper.
-
 
 ## Leader Boards
 ### NLU: Slot Filling
@@ -24,7 +18,7 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 #### ATIS
 
 | Model           | F1  |  Paper / Source |
-| ------------- | :-----:| :-----:| :-----:|
+|:-------------:|:-----:|:-----:|
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 95.2 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 94.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Joint Seq. (Hakkani-Tur et al., 2016) | 94.3 | [Multi-Domain Joint Semantic Frame Parsing using Bi-directional RNN-LSTM](https://www.csie.ntu.edu.tw/~yvchen/doc/IS16_MultiJoint.pdf) |
@@ -34,7 +28,7 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 
 
 | Model           | F1  |  Paper / Source |
-| ------------- | :-----:| :-----:| :-----:|
+| ------------- | :-----:| :-----:|
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 88.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 88.3 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Atten.-Based (Liu and Lane, 2016) | 87.8 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
@@ -47,7 +41,7 @@ Slot filling task aims to classify user utterance into different domain.
 #### ATIS
 
 | Model           | Acc.  |  Paper / Source |
-| ------------- | :-----:| :-----:| :-----:|
+| ------------- | :-----:| :-----:|
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 94.1 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 93.6 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Joint Seq. (Hakkani-Tur et al., 2016) | 92.6 | [Multi-Domain Joint Semantic Frame Parsing using Bi-directional RNN-LSTM](https://www.csie.ntu.edu.tw/~yvchen/doc/IS16_MultiJoint.pdf) |
@@ -57,7 +51,7 @@ Slot filling task aims to classify user utterance into different domain.
 #### Snips
 
 | Model           | Acc.  |  Paper / Source |
-| ------------- | :-----:| :-----:| :-----:|
+| ------------- | :-----:| :-----:|
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 97.0 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 96.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Joint Seq. (Hakkani-Tur et al., 2016) | 96.9 | [Multi-Domain Joint Semantic Frame Parsing using Bi-directional RNN-LSTM](https://www.csie.ntu.edu.tw/~yvchen/doc/IS16_MultiJoint.pdf) |
@@ -111,3 +105,11 @@ Following information is included for each dataset:
 | DSTC4                               | 1. Data name as TourSG consists   of 35 dialog sessions on touristic information for Singapore collected from   Skype calls between three tour guides and 35 tourists     2. All the recorded dialogs with the total length of 21 hours have been   manually transcribed and annotated with speech act and semantic labels for   each turn level.     3. Homepage: http://www.colips.org/workshop/dstc4/data.html     4. Human2Human                                             | N/A                                                                                                                                                           | M                 | Task Oriented | Querry touristic information                                                    | No                | Train 20 dialogs     Test 15 dialogs                                                                                                                                                                 | speech act (User &   Agent)     semantic labels(Intent? User & Agent)     topic for turn (Intent?)                                                                                        | N/A                                                                                                                                                                                      |
 | Movie   Booking Dataset             | 1. (Microsoft) Raw   conversational data collected via Amazon Mechanical Turk, with annotations   provided by domain experts.     2. Human2Human                                                                                                                                                                                                                                                                                                                                 | Download:     https://github.com/MiuLab/TC-Bot#data     Paper:     TC-bot                                                                                     | M                 | Task Oriented | Booking Movie                                                                   | Yes               | 280 dialogues     turns per dialogue is approximately 11                                                                                                                                             | User Act(inform, request   slots)     Agent Act(inform, request slots)     Intent     Slots                                                                                               | Database     API-call                                                                                                                                                                    |
 | Lingxi                              | 1. The data is all single round   user input divided into good words. There is more noise.     2. Completed part of speech tagging and slot labeling     3. Language: Chinese                                                                                                                                                                                                                                                                                                    | N/A                                                                                                                                                           | S                 | Task Oriented | conversational robot service   user log                                         | No                | Utterance: 5132                                                                                                                                                                                      | Slot     POS                                                                                                                                                                              | Agent reply     Intent     API call     Database                                                                                                                                         |
+
+
+
+## Call for Contributions
+Contributions are welcomed, you are encouraged to:
+- Directly pull request
+- Send me new dataset info
+- Send me new experiment results from published paper.
