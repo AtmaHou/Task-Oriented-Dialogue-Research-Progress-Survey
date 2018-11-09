@@ -1,19 +1,98 @@
+<link rel="stylesheet" type="text/css" href="auto-number-title.css" />
+
 # Task-Oriented Dialogue Dataset Survey
-A dataset survey about task-oriented dialogue. 
-Following infomation is included:
+
+
+## Introduction
+This repo is a dataset survey for Task-oriented Dialogue.
+
+We investigated most existing dialogue datasets and summarize their basic information, such download link and size.
+
+We also include leader boards of some dataset to present research progress in the task oriented dialogue fields.
+
+## Call for Contributions
+Contributions are welcomed, you are encouraged to:
+- Directly pull request
+- Send me new dataset info
+- Send me new experiment results from published paper.
+
+
+## Leader Boards
+### NLU: Slot Filling
+Slot filling task aims to recognize key entity of user utterance, such position and time.
+
+#### ATIS
+
+| Model           | F1  |  Paper / Source |
+| ------------- | :-----:| :-----:| :-----:|
+| Slot-Gated (Intent Atten.) (Goo et al., 2018) | 95.2 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Slot-Gated (Full Atten.) (Goo et al., 2018) | 94.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Joint Seq. (Hakkani-Tur et al., 2016) | 94.3 | [Multi-Domain Joint Semantic Frame Parsing using Bi-directional RNN-LSTM](https://www.csie.ntu.edu.tw/~yvchen/doc/IS16_MultiJoint.pdf) |
+| Atten.-Based (Liu and Lane, 2016) | 94.2 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
+
+#### Snips
+
+
+| Model           | F1  |  Paper / Source |
+| ------------- | :-----:| :-----:| :-----:|
+| Slot-Gated (Full Atten.) (Goo et al., 2018) | 88.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Slot-Gated (Intent Atten.) (Goo et al., 2018) | 88.3 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Atten.-Based (Liu and Lane, 2016) | 87.8 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
+| Joint Seq. (Hakkani-Tur et al., 2016) | 87.3 | [Multi-Domain Joint Semantic Frame Parsing using Bi-directional RNN-LSTM](https://www.csie.ntu.edu.tw/~yvchen/doc/IS16_MultiJoint.pdf) |
+
+
+### NLU: Intent Detection
+Slot filling task aims to classify user utterance into different domain.
+
+#### ATIS
+
+| Model           | Acc.  |  Paper / Source |
+| ------------- | :-----:| :-----:| :-----:|
+| Slot-Gated (Intent Atten.) (Goo et al., 2018) | 94.1 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Slot-Gated (Full Atten.) (Goo et al., 2018) | 93.6 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Joint Seq. (Hakkani-Tur et al., 2016) | 92.6 | [Multi-Domain Joint Semantic Frame Parsing using Bi-directional RNN-LSTM](https://www.csie.ntu.edu.tw/~yvchen/doc/IS16_MultiJoint.pdf) |
+| Atten.-Based (Liu and Lane, 2016) | 91.1 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
+
+
+#### Snips
+
+| Model           | Acc.  |  Paper / Source |
+| ------------- | :-----:| :-----:| :-----:|
+| Slot-Gated (Full Atten.) (Goo et al., 2018) | 97.0 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Slot-Gated (Intent Atten.) (Goo et al., 2018) | 96.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Joint Seq. (Hakkani-Tur et al., 2016) | 96.9 | [Multi-Domain Joint Semantic Frame Parsing using Bi-directional RNN-LSTM](https://www.csie.ntu.edu.tw/~yvchen/doc/IS16_MultiJoint.pdf) |
+| Atten.-Based (Liu and Lane, 2016) | 96.7 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
+
+
+
+### Dialogue State Tracking
+Dialogue state tacking task aims to predict or give representation of dialogue state,
+which usually contains a goal constraint, a set of requested slots, and the user's dialogue act.
+
+### DSTC2
+| Model           | Area  |  Food  |  Price  |  Joint  |  Paper / Source |
+| ------------- | :-----:| :-----:| :-----:| :-----:| --- |
+| Liu et al. (2018) | 90 | 84 | 92 | 72 | [Dialogue Learning with Human Teaching and Feedback in End-to-End Trainable Task-Oriented Dialogue Systems](https://arxiv.org/abs/1804.06512) |
+| Neural belief tracker (Mrkšić et al., 2017) | 90 | 84 | 94 | 72 | [Neural Belief Tracker: Data-Driven Dialogue State Tracking](https://arxiv.org/abs/1606.03777) |
+| RNN (Henderson et al., 2014) |﻿92 | 86 | 86 | 69 | [Robust dialog state tracking using delexicalised recurrent neural networks and unsupervised gate](http://svr-ftp.eng.cam.ac.uk/~sjy/papers/htyo14.pdf) |
+
+
+## Dataset Introductions
+See the data details Here or in [Excel File](../Atma'sDatasetSurvey.xlsx)
+
+Following information is included for each dataset:
 - Name
 - Introduction
 - Link (Download & Paper)
 - Multi or single turn
 - Task
 - Task detail
-- Wether Public Accessible
+- Whether Public Accessible
 - Size & Stats
 - Included Label
 - Missing Label
 
 
-## See Survey Here or in Excel File
 | Name                                | Introduction                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Links                                                                                                                                                         | Multi/Single Turn | Task          | Task Detail                                                                     | Public Accessible | Size & Stats                                                                                                                                                                                         | Included Label                                                                                                                                                                            | Missing Label                                                                                                                                                                            |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|---------------|---------------------------------------------------------------------------------|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MultiWOZ   2.0                      | 1. Proposed by EMNLP 2018 best   paper.     2. Largest by now &   contain multi-domains.     3. Human2human     4. goal changes are encouraged                                                                                                                                                                                                                                                                                                                                   | Download:     http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/     Paper:     https://arxiv.org/pdf/1810.00278.pdf                                          | M                 | Task Oriented | 7 domains     Attraction, Hospital,     Police, Hotel, Restaurant, Taxi, Train. | Yes               | Total 10438   dialogues     average number of turns are 8.93 and 15.39 for single and multi-domain   dialogues respectively.     115, 434 turns in total.                                            | Belief state     User Act(inform, request slots)     Agent Act(inform, request slots)                                                                                                     | NLU(Intent, Slots)                                                                                                                                                                       |
