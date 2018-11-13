@@ -7,6 +7,7 @@
 - ##### [Call for Contribution](#call)
 - ##### [Leader Boards](#leader)
 - ##### [Datasets Introduction](#detail)
+- ##### [Acknowledgement](#acknowledgement)
 
 
 
@@ -16,6 +17,8 @@ This repo is a dataset survey for Task-oriented Dialogue.
 We investigated most existing dialogue datasets and summarize their basic information, such download link and size.
 
 We also include leader boards of some dataset to present research progress in the task oriented dialogue fields.
+
+A Chinese intro & news for this project is available [here](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650793618&idx=1&sn=dc5e592c5d8b451531383350af76e254&chksm=8f477379b830fa6fb0b5909f6d6a3f85dae44e8a37aa0ab9763df354cabcc9224c211075f127&mpshare=1&scene=1&srcid=#rd)
 
 ## <a name="call"></a> Call for Contributions
 Contributions are welcomed, you are encouraged to:
@@ -76,6 +79,20 @@ Dialogue state tacking task aims to predict or give representation of dialogue s
 which usually contains a goal constraint, a set of requested slots, and the user's dialogue act.
 
 ### DSTC2
+Clarification of dataset types:
+
+The main results we list here are obtained from pure DSTC2 dataset (ASR n-best).
+
+However, we don't list other kinds of DSTC2 data source results such as **DSTC2-text**
+(It formulates the dialog state tracking as a machine reading problem
+which read the dialog transcriptions multiple times and answer the questions
+about each of the slot,
+for more info please refer to [paper](https://aaai.org/ocs/index.php/WS/AAAIW18/paper/view/17447/15652))
+and **DSTC-cleaned**
+(It is used by the NBT paper and fixes ASR noise and typo during training and include ASR noise during testing,
+The cleaned version is available at [here](mi.eng.cam.ac.uk/˜nm480/dstc2-clean)),
+
+
 | Model           | Area  |  Food  |  Price  |  Joint  |  Paper / Source |
 | ------------- | :-----:| :-----:| :-----:| :-----:| --- |
 | Liu et al. (2018) | 90 | 84 | 92 | 72 | [Dialogue Learning with Human Teaching and Feedback in End-to-End Trainable Task-Oriented Dialogue Systems](https://arxiv.org/abs/1804.06512) |
@@ -117,3 +134,12 @@ Following information is included for each dataset:
  | DSTC4                               | 1. Data name as TourSG consists   of 35 dialog sessions on touristic information for Singapore collected from   Skype calls between three tour guides and 35 tourists     2. All the recorded dialogs with the total length of 21 hours have been   manually transcribed and annotated with speech act and semantic labels for   each turn level.     3. Homepage: http://www.colips.org/workshop/dstc4/data.html     4. Human2Human                                             | N/A                                                                                                                                                           | M                 | Task Oriented | Querry touristic information                                                    | No                | Train 20 dialogs     Test 15 dialogs                                                                                                                                                                 | speech act (User &   Agent)     semantic labels(Intent? User & Agent)     topic for turn (Intent?)                                                                                        | N/A                                                                                                                                                                                      |
  | Movie   Booking Dataset             | 1. (Microsoft) Raw   conversational data collected via Amazon Mechanical Turk, with annotations   provided by domain experts.     2. Human2Human                                                                                                                                                                                                                                                                                                                                 | Download:     https://github.com/MiuLab/TC-Bot#data     Paper:     TC-bot                                                                                     | M                 | Task Oriented | Booking Movie                                                                   | Yes               | 280 dialogues     turns per dialogue is approximately 11                                                                                                                                             | User Act(inform, request   slots)     Agent Act(inform, request slots)     Intent     Slots                                                                                               | Database     API-call                                                                                                                                                                    |
  | Lingxi                              | 1. The data is all single round   user input divided into good words. There is more noise.     2. Completed part of speech tagging and slot labeling     3. Language: Chinese                                                                                                                                                                                                                                                                                                    | N/A                                                                                                                                                           | S                 | Task Oriented | conversational robot service   user log                                         | No                | Utterance: 5132                                                                                                                                                                                      | Slot     POS                                                                                                                                                                              | Agent reply     Intent     API call     Database                                                                                                                                         |
+
+
+## <a name="acknowledgment"></a>Acknowledgment
+
+Thanks for supports from my adviser [Wanxiang Che](http://ir.hit.edu.cn/~car/english.htm).
+
+Thanks for **public contributions** from:
+
+[JiAnge](https://github.com/linjian93).
