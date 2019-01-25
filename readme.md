@@ -143,4 +143,4 @@ Thanks for supports from my adviser [Wanxiang Che](http://ir.hit.edu.cn/~car/eng
 
 Thanks for **public contributions** from:
 
-[JiAnge](https://github.com/linjian93).
+[JiAnge](https://github.com/linjian93), [Su Zhu](https://github.com/sz128).
