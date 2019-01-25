@@ -27,6 +27,9 @@ Contributions are welcomed, you are encouraged to:
 - Send me new experiment results from published paper.
 
 ## <a name="leader"></a> Leader Boards
+
+The ranking is depended on published results, which may not be up-to-date.
+
 ### NLU: Slot Filling
 Slot filling task aims to recognize key entity of user utterance, such position and time.
 
@@ -36,6 +39,9 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 |:-------------:|:-----:|:-----:|
 | Intent Gating & self-attention (Li et al., 2018) | 96.52 | [A Self-Attentive Model with Gate Mechanism for Spoken Language Understanding](http://aclweb.org/anthology/D18-1417) |
 | Atten.-Based (Liu and Lane, 2016) | 95.98 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
+| Encoder-decoder-pointer  (Zhai et al., 2017) | 95.86 |  [Neural Models for Sequence Chunking](https://arxiv.org/pdf/1701.04027.pdf) |
+| ELMo + BLSTM-CRF (Siddhant et al., 2018) | 95.62 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
+| Capsule Neural Networks (Zhang et al., 2018) | 95.2 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 
 
 #### Snips
@@ -44,8 +50,9 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 | Model           | F1  |  Paper / Source |
 | ------------- | :-----:| :-----:|
 | ELMo + BLSTM-CRF (Siddhant et al., 2018) | 93.90 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
-| BLSTM-CRF (Siddhant et al., 2018) | 88.78 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
+| Capsule Neural Networks (Zhang et al., 2018) | 91.8 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 88.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| BLSTM-CRF (Siddhant et al., 2018) | 88.78 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 88.3 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 
 ### NLU: Intent Detection
@@ -57,15 +64,17 @@ Slot filling task aims to classify user utterance into different domain.
 | ------------- | :-----:| :-----:|
 | Intent Gating & self-attention (Li et al., 2018) | 98.77 | [A Self-Attentive Model with Gate Mechanism for Spoken Language Understanding](http://aclweb.org/anthology/D18-1417) |
 | Atten.-Based (Liu and Lane, 2016) | 98.43 |  [Attention-based recurrent neural network models for joint intent detection and slot filling](https://arxiv.org/pdf/1609.01454.pdf) |
+| BLSTM (Zhang et al., 2016) | 98.10 | [A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding](https://www.ijcai.org/Proceedings/16/Papers/425.pdf) |
+| Capsule Neural Networks (Zhang et al., 2018) | 95.0 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 
 
 #### Snips
 
 | Model           | Acc.  |  Paper / Source |
 | ------------- | :-----:| :-----:|
+| Capsule Neural Networks (Zhang et al., 2018) | 97.7 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 97.0 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 96.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
-
 
 
 ### Dialogue State Tracking
