@@ -38,6 +38,7 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 | Model           | F1  |  Paper / Source |
 |:-------------:|:-----:|:-----:|
 | Intent Gating & self-attention (Li et al., 2018) | 96.52 | [A Self-Attentive Model with Gate Mechanism for Spoken Language Understanding](http://aclweb.org/anthology/D18-1417) |
+| Atomic concept (Su Zhu and Kai Yu, 2018) | 96.08 | [Concept Transfer Learning for Adaptive Language Understanding](http://aclweb.org/anthology/W18-5047) |
 | Atten.-Based (Liu and Lane, 2016) | 95.98 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
 | Encoder-decoder-pointer  (Zhai et al., 2017) | 95.86 |  [Neural Models for Sequence Chunking](https://arxiv.org/pdf/1701.04027.pdf) |
 | ELMo + BLSTM-CRF (Siddhant et al., 2018) | 95.62 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
