@@ -28,7 +28,7 @@ Contributions are welcomed, you are encouraged to:
 
 ## <a name="leader"></a> Leader Boards
 
-The ranking is depended on published results, which may not be up-to-date.
+The ranking is depended on results on most published papers. We are trying to keep it up-to-date. The ranking may be unfair because features used and train/dev set splitting in those papers may be different. However, it shows a trend of research.
 
 ### NLU: Slot Filling
 Slot filling task aims to recognize key entity of user utterance, such position and time.
