@@ -27,6 +27,9 @@ Contributions are welcomed, you are encouraged to:
 - Send me new experiment results from published paper.
 
 ## <a name="leader"></a> Leader Boards
+
+The ranking is depended on published results of related papers. We are trying to keep it up-to-date. The ranking may be unfair because features used and train/dev set splitting in those papers may be different. However it shows a trend of research, and would be helpful for someone to start a project about task-oriented dialogue.
+
 ### NLU: Slot Filling
 Slot filling task aims to recognize key entity of user utterance, such position and time.
 
@@ -34,21 +37,26 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 
 | Model           | F1  |  Paper / Source |
 |:-------------:|:-----:|:-----:|
+| Intent Gating & self-attention (Li et al., 2018) | 96.52 | [A Self-Attentive Model with Gate Mechanism for Spoken Language Understanding](http://aclweb.org/anthology/D18-1417) |
+| Atomic concept (Su Zhu and Kai Yu, 2018) | 96.08 | [Concept Transfer Learning for Adaptive Language Understanding](http://aclweb.org/anthology/W18-5047) |
+| Atten.-Based (Liu and Lane, 2016) | 95.98 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
+| Encoder-decoder-pointer  (Zhai et al., 2017) | 95.86 |  [Neural Models for Sequence Chunking](https://arxiv.org/pdf/1701.04027.pdf) |
+| ELMo + BLSTM-CRF (Siddhant et al., 2018) | 95.62 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
+| Capsule Neural Networks (Zhang et al., 2018) | 95.2 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 95.2 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 94.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
-| Joint Seq. (Hakkani-Tur et al., 2016) | 94.3 | [Multi-Domain Joint Semantic Frame Parsing using Bi-directional RNN-LSTM](https://www.csie.ntu.edu.tw/~yvchen/doc/IS16_MultiJoint.pdf) |
-| Atten.-Based (Liu and Lane, 2016) | 94.2 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
+
 
 #### Snips
 
 
 | Model           | F1  |  Paper / Source |
 | ------------- | :-----:| :-----:|
+| ELMo + BLSTM-CRF (Siddhant et al., 2018) | 93.90 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
+| Capsule Neural Networks (Zhang et al., 2018) | 91.8 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 88.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| BLSTM-CRF (Siddhant et al., 2018) | 88.78 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 88.3 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
-| Atten.-Based (Liu and Lane, 2016) | 87.8 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
-| Joint Seq. (Hakkani-Tur et al., 2016) | 87.3 | [Multi-Domain Joint Semantic Frame Parsing using Bi-directional RNN-LSTM](https://www.csie.ntu.edu.tw/~yvchen/doc/IS16_MultiJoint.pdf) |
-
 
 ### NLU: Intent Detection
 Slot filling task aims to classify user utterance into different domain.
@@ -57,21 +65,21 @@ Slot filling task aims to classify user utterance into different domain.
 
 | Model           | Acc.  |  Paper / Source |
 | ------------- | :-----:| :-----:|
+| Intent Gating & self-attention (Li et al., 2018) | 98.77 | [A Self-Attentive Model with Gate Mechanism for Spoken Language Understanding](http://aclweb.org/anthology/D18-1417) |
+| Atten.-Based (Liu and Lane, 2016) | 98.43 |  [Attention-based recurrent neural network models for joint intent detection and slot filling](https://arxiv.org/pdf/1609.01454.pdf) |
+| BLSTM (Zhang et al., 2016) | 98.10 | [A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding](https://www.ijcai.org/Proceedings/16/Papers/425.pdf) |
+| Capsule Neural Networks (Zhang et al., 2018) | 95.0 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 94.1 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 93.6 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
-| Joint Seq. (Hakkani-Tur et al., 2016) | 92.6 | [Multi-Domain Joint Semantic Frame Parsing using Bi-directional RNN-LSTM](https://www.csie.ntu.edu.tw/~yvchen/doc/IS16_MultiJoint.pdf) |
-| Atten.-Based (Liu and Lane, 2016) | 91.1 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
 
 
 #### Snips
 
 | Model           | Acc.  |  Paper / Source |
 | ------------- | :-----:| :-----:|
+| Capsule Neural Networks (Zhang et al., 2018) | 97.7 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 97.0 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 96.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
-| Joint Seq. (Hakkani-Tur et al., 2016) | 96.9 | [Multi-Domain Joint Semantic Frame Parsing using Bi-directional RNN-LSTM](https://www.csie.ntu.edu.tw/~yvchen/doc/IS16_MultiJoint.pdf) |
-| Atten.-Based (Liu and Lane, 2016) | 96.7 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
-
 
 
 ### Dialogue State Tracking
