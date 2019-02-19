@@ -37,8 +37,7 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 
 | Model           | F1  |  Paper / Source |
 |:-------------:|:-----:|:-----:|
-| Atten.-Based+CNN-BLSTM (Wang et al., 2018) | 97.76 | [Attention-Based CNN-BLSTM Networks for Joint Intent
-Detection and Slot Filling](http://www.cips-cl.org/static/anthology/CCL-2018/CCL-18-091.pdf) |
+| Atten.-Based+CNN-BLSTM (Wang et al., 2018) | 97.76 | [Attention-Based CNN-BLSTM Networks for Joint Intent Detection and Slot Filling](http://www.cips-cl.org/static/anthology/CCL-2018/CCL-18-091.pdf) |
 | Intent Gating & self-attention (Li et al., 2018) | 96.52 | [A Self-Attentive Model with Gate Mechanism for Spoken Language Understanding](http://aclweb.org/anthology/D18-1417) |
 | Atomic concept (Su Zhu and Kai Yu, 2018) | 96.08 | [Concept Transfer Learning for Adaptive Language Understanding](http://aclweb.org/anthology/W18-5047) |
 | Atten.-Base+Delexicalization (Shin et al., 2018) | 96.08 | [Slot Filling with Delexicalized Sentence Generation](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1808.pdf) |
@@ -71,8 +70,7 @@ Slot filling task aims to classify user utterance into different domain.
 | Intent Gating & self-attention (Li et al., 2018) | 98.77 | [A Self-Attentive Model with Gate Mechanism for Spoken Language Understanding](http://aclweb.org/anthology/D18-1417) |
 | Atten.-Based (Liu and Lane, 2016) | 98.43 |  [Attention-based recurrent neural network models for joint intent detection and slot filling](https://arxiv.org/pdf/1609.01454.pdf) |
 | BLSTM (Zhang et al., 2016) | 98.10 | [A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding](https://www.ijcai.org/Proceedings/16/Papers/425.pdf) |
-| Atten.-Based+CNN-BLSTM (Wang et al., 2018) | 95.51 | [Attention-Based CNN-BLSTM Networks for Joint Intent
-Detection and Slot Filling](http://www.cips-cl.org/static/anthology/CCL-2018/CCL-18-091.pdf) |
+| Atten.-Based+CNN-BLSTM (Wang et al., 2018) | 95.51 | [Attention-Based CNN-BLSTM Networks for Joint Intent Detection and Slot Filling](http://www.cips-cl.org/static/anthology/CCL-2018/CCL-18-091.pdf) |
 | Capsule Neural Networks (Zhang et al., 2018) | 95.0 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 94.1 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 93.6 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
