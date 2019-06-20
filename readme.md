@@ -39,6 +39,7 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 |:-------------:|:-----:|:-----:|
 | Bi-model with a decoder (Wang et al., 2018) | 96.89 | [A Bi-model based RNN Semantic Frame Parsing Model for Intent Detection and Slot Filling](https://aclweb.org/anthology/N18-2050) |
 | Intent Gating & self-attention (Li et al., 2018) | 96.52 | [A Self-Attentive Model with Gate Mechanism for Spoken Language Understanding](http://aclweb.org/anthology/D18-1417) |
+| Joint BERT (Chen et al., 2019) | 96.1 | [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/pdf/1902.10909.pdf) |
 | Atomic concept (Su Zhu and Kai Yu, 2018) | 96.08 | [Concept Transfer Learning for Adaptive Language Understanding](http://aclweb.org/anthology/W18-5047) |
 | Atten.-Base+Delexicalization (Shin et al., 2018) | 96.08 | [Slot Filling with Delexicalized Sentence Generation](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1808.pdf) |
 | Atten.-Based (Liu and Lane, 2016) | 95.98 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
@@ -54,6 +55,8 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 
 | Model           | F1  |  Paper / Source |
 | ------------- | :-----:| :-----:|
+| Joint BERT (Chen et al., 2019) | 97.0 | [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/pdf/1902.10909.pdf) |
+| BLSTM-CRF + ELMo word embedding | 96.92 | [Code](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) |
 | ELMo + BLSTM-CRF (Siddhant et al., 2018) | 93.90 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
 | Capsule Neural Networks (Zhang et al., 2018) | 91.8 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 88.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
@@ -67,10 +70,12 @@ Slot filling task aims to classify user utterance into different domain.
 
 | Model           | Acc.  |  Paper / Source |
 | ------------- | :-----:| :-----:|
+| BLSTM + BERT | 99.00 | [Code](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) |
 | Bi-model with a decoder (Wang et al., 2018) | 98.99 | [A Bi-model based RNN Semantic Frame Parsing Model for Intent Detection and Slot Filling](https://aclweb.org/anthology/N18-2050) |
 | Intent Gating & self-attention (Li et al., 2018) | 98.77 | [A Self-Attentive Model with Gate Mechanism for Spoken Language Understanding](http://aclweb.org/anthology/D18-1417) |
 | Atten.-Based (Liu and Lane, 2016) | 98.43 |  [Attention-based recurrent neural network models for joint intent detection and slot filling](https://arxiv.org/pdf/1609.01454.pdf) |
 | BLSTM (Zhang et al., 2016) | 98.10 | [A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding](https://www.ijcai.org/Proceedings/16/Papers/425.pdf) |
+| Joint BERT (Chen et al., 2019) | 97.9 | [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/pdf/1902.10909.pdf) |
 | Capsule Neural Networks (Zhang et al., 2018) | 95.0 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 94.1 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 93.6 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
@@ -80,6 +85,9 @@ Slot filling task aims to classify user utterance into different domain.
 
 | Model           | Acc.  |  Paper / Source |
 | ------------- | :-----:| :-----:|
+| ELMo + BLSTM-CRF (Siddhant et al., 2018) | 99.29 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
+| Enc-dec (focus) + ELMo | 99.14 | [Code](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) |
+| Joint BERT (Chen et al., 2019) | 98.6 | [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/pdf/1902.10909.pdf) |
 | Capsule Neural Networks (Zhang et al., 2018) | 97.7 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 97.0 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 96.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
