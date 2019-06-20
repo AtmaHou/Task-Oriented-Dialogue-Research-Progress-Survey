@@ -70,7 +70,7 @@ Slot filling task aims to classify user utterance into different domain.
 
 | Model           | Acc.  |  Paper / Source |
 | ------------- | :-----:| :-----:|
-| BLSTM + BERT | 99.00 | [Code](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) |
+| BLSTM + BERT | 99.10 | [Code](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) |
 | Bi-model with a decoder (Wang et al., 2018) | 98.99 | [A Bi-model based RNN Semantic Frame Parsing Model for Intent Detection and Slot Filling](https://aclweb.org/anthology/N18-2050) |
 | Intent Gating & self-attention (Li et al., 2018) | 98.77 | [A Self-Attentive Model with Gate Mechanism for Spoken Language Understanding](http://aclweb.org/anthology/D18-1417) |
 | Atten.-Based (Liu and Lane, 2016) | 98.43 |  [Attention-based recurrent neural network models for joint intent detection and slot filling](https://arxiv.org/pdf/1609.01454.pdf) |
