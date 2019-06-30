@@ -55,7 +55,7 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 
 | Model           | F1  |  Paper / Source |
 | ------------- | :-----:| :-----:|
-| BLSTM-CRF + BERT | 97.17 | [Code](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) |
+| Enc-dec (focus) + BERT | 97.17 | [Code](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) |
 | Joint BERT (Chen et al., 2019) | 97.0 | [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/pdf/1902.10909.pdf) |
 | BLSTM-CRF + ELMo word embedding | 96.92 | [Code](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) |
 | ELMo + BLSTM-CRF (Siddhant et al., 2018) | 93.90 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
