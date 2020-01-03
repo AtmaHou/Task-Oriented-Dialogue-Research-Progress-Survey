@@ -48,6 +48,8 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 | Capsule Neural Networks (Zhang et al., 2018) | 95.2 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 95.2 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 94.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Stack-Propagation (Qin et al., 2019) | 95.9 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
+| Stack-Propagation + BERT (Qin et al., 2019) | 96.1 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 
 
 #### Snips
@@ -63,6 +65,8 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 88.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | BLSTM-CRF (Siddhant et al., 2018) | 88.78 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 88.3 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Stack-Propagation (Qin et al., 2019) | 94.2 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
+| Stack-Propagation + BERT (Qin et al., 2019) | 97.0 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 
 ### NLU: Intent Detection
 Slot filling task aims to classify user utterance into different domain.
@@ -80,6 +84,8 @@ Slot filling task aims to classify user utterance into different domain.
 | Capsule Neural Networks (Zhang et al., 2018) | 95.0 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 94.1 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 93.6 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Stack-Propagation (Qin et al., 2019) | 96.9 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
+| Stack-Propagation + BERT (Qin et al., 2019) | 97.5 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 
 
 #### Snips
@@ -92,6 +98,8 @@ Slot filling task aims to classify user utterance into different domain.
 | Capsule Neural Networks (Zhang et al., 2018) | 97.7 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 97.0 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 96.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
+| Stack-Propagation (Qin et al., 2019) | 98.0 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
+| Stack-Propagation + BERT (Qin et al., 2019) | 99.0 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 
 
 ### Dialogue State Tracking
@@ -169,4 +177,5 @@ Thanks for **public contributions** from:
 [seeledu](https://github.com/seeledu),
 [Tony Lin](https://github.com/tnlin),
 [Jason Krone](https://github.com/jasonkrone),
+[Libo Qin](https://github.com/yizhen20133868),
 .
