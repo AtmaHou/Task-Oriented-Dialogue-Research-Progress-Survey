@@ -39,17 +39,17 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 |:-------------:|:-----:|:-----:|
 | Bi-model with a decoder (Wang et al., 2018) | 96.89 | [A Bi-model based RNN Semantic Frame Parsing Model for Intent Detection and Slot Filling](https://aclweb.org/anthology/N18-2050) |
 | Intent Gating & self-attention (Li et al., 2018) | 96.52 | [A Self-Attentive Model with Gate Mechanism for Spoken Language Understanding](http://aclweb.org/anthology/D18-1417) |
+| Stack-Propagation + BERT (Qin et al., 2019) | 96.10 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 | Joint BERT (Chen et al., 2019) | 96.1 | [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/pdf/1902.10909.pdf) |
 | Atomic concept (Su Zhu and Kai Yu, 2018) | 96.08 | [Concept Transfer Learning for Adaptive Language Understanding](http://aclweb.org/anthology/W18-5047) |
 | Atten.-Base+Delexicalization (Shin et al., 2018) | 96.08 | [Slot Filling with Delexicalized Sentence Generation](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1808.pdf) |
 | Atten.-Based (Liu and Lane, 2016) | 95.98 |  [Attention-based recurrent neural network models for joint intent detection and slot fillin](https://arxiv.org/pdf/1609.01454.pdf) |
+| Stack-Propagation (Qin et al., 2019) | 95.90 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 | Encoder-decoder-pointer  (Zhai et al., 2017) | 95.86 |  [Neural Models for Sequence Chunking](https://arxiv.org/pdf/1701.04027.pdf) |
 | ELMo + BLSTM-CRF (Siddhant et al., 2018) | 95.62 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
 | Capsule Neural Networks (Zhang et al., 2018) | 95.2 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 95.2 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 94.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
-| Stack-Propagation (Qin et al., 2019) | 95.9 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
-| Stack-Propagation + BERT (Qin et al., 2019) | 96.1 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 
 
 #### Snips
@@ -58,15 +58,15 @@ Slot filling task aims to recognize key entity of user utterance, such position 
 | Model           | F1  |  Paper / Source |
 | ------------- | :-----:| :-----:|
 | Enc-dec (focus) + BERT | 97.17 | [Code](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) |
+| Stack-Propagation + BERT (Qin et al., 2019) | 97.0 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 | Joint BERT (Chen et al., 2019) | 97.0 | [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/pdf/1902.10909.pdf) |
 | BLSTM-CRF + ELMo word embedding | 96.92 | [Code](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) |
+| Stack-Propagation (Qin et al., 2019) | 94.2 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 | ELMo + BLSTM-CRF (Siddhant et al., 2018) | 93.90 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
 | Capsule Neural Networks (Zhang et al., 2018) | 91.8 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 88.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | BLSTM-CRF (Siddhant et al., 2018) | 88.78 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 88.3 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
-| Stack-Propagation (Qin et al., 2019) | 94.2 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
-| Stack-Propagation + BERT (Qin et al., 2019) | 97.0 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 
 ### NLU: Intent Detection
 Slot filling task aims to classify user utterance into different domain.
@@ -81,11 +81,11 @@ Slot filling task aims to classify user utterance into different domain.
 | Atten.-Based (Liu and Lane, 2016) | 98.43 |  [Attention-based recurrent neural network models for joint intent detection and slot filling](https://arxiv.org/pdf/1609.01454.pdf) |
 | BLSTM (Zhang et al., 2016) | 98.10 | [A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding](https://www.ijcai.org/Proceedings/16/Papers/425.pdf) |
 | Joint BERT (Chen et al., 2019) | 97.9 | [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/pdf/1902.10909.pdf) |
+| Stack-Propagation + BERT (Qin et al., 2019) | 97.5 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
+| Stack-Propagation (Qin et al., 2019) | 96.9 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 | Capsule Neural Networks (Zhang et al., 2018) | 95.0 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 94.1 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 93.6 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
-| Stack-Propagation (Qin et al., 2019) | 96.9 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
-| Stack-Propagation + BERT (Qin et al., 2019) | 97.5 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 
 
 #### Snips
@@ -94,12 +94,12 @@ Slot filling task aims to classify user utterance into different domain.
 | ------------- | :-----:| :-----:|
 | ELMo + BLSTM-CRF (Siddhant et al., 2018) | 99.29 |  [Unsupervised Transfer Learning for Spoken Language Understanding in Intelligent Agents](https://arxiv.org/pdf/1811.05370.pdf) |
 | Enc-dec (focus) + ELMo | 99.14 | [Code](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) |
+| Stack-Propagation + BERT (Qin et al., 2019) | 99.0 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 | Joint BERT (Chen et al., 2019) | 98.6 | [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/pdf/1902.10909.pdf) |
+| Stack-Propagation (Qin et al., 2019) | 98.0 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 | Capsule Neural Networks (Zhang et al., 2018) | 97.7 | [Joint Slot Filling and Intent Detection via Capsule Neural Networks](https://arxiv.org/pdf/1812.09471.pdf) |
 | Slot-Gated (Full Atten.) (Goo et al., 2018) | 97.0 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
 | Slot-Gated (Intent Atten.) (Goo et al., 2018) | 96.8 | [Slot-Gated Modeling for Joint Slot Filling and Intent Prediction](http://www.aclweb.org/anthology/N18-2118) |
-| Stack-Propagation (Qin et al., 2019) | 98.0 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
-| Stack-Propagation + BERT (Qin et al., 2019) | 99.0 | [A Stack-Propagation Framework with Token-level Intent Detection for Spoken Language Understanding](https://www.aclweb.org/anthology/D19-1214/) |
 
 
 ### Dialogue State Tracking
@@ -177,5 +177,5 @@ Thanks for **public contributions** from:
 [seeledu](https://github.com/seeledu),
 [Tony Lin](https://github.com/tnlin),
 [Jason Krone](https://github.com/jasonkrone),
-[Libo Qin](https://github.com/yizhen20133868),
+[Libo Qin](https://github.com/yizhen20133868)
 .
