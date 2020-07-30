@@ -1,9 +1,23 @@
 # Release Notes
 
 ### Index
+- ##### [Updates 2020.7.30](#20200730)
 - ##### [Updates 2020.7.27](#20200727)
 
 
+
+### <a name="20200730"></a> Updates 2020.7.30 
+Add new dataset:
+- Taskmaster-2 (2020)
+- JDDC Corpus 2020
+- MultiWOZ 2.2
+
+Re-claim abnormal high NLU results:
+- [Bi-model-Decoder (Wang et al., 2018)](https://aclweb.org/anthology/N18-2050) 
+- [Intent Gating + Self-atten. (Li et al., 2018)](http://aclweb.org/anthology/D18-1417)
+- [Atten.-Based (Liu and Lane, 2016)](https://arxiv.org/pdf/1609.01454.pdf)
+
+Refine layout
 
 ### <a name="20200727"></a> Updates 2020.7.27 
 Add new dataset:
