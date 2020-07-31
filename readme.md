@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="auto-number-title.css" />
 
-# Task-Oriented Dialogue Dataset Survey
+# Task-Oriented Dialogue Research Progress Survey
 
 ### Content
 - ##### [Introduction](#intro)
@@ -13,11 +13,11 @@
 
 
 ## <a name="intro"></a>Introduction
-This repo is a dataset survey for Task-oriented Dialogue.
+This repo is a dataset and methods survey for Task-oriented Dialogue.
 
-We investigated most existing dialogue datasets and summarize their basic information, such download link and size.
+We investigated most existing dialogue datasets and summarize their basic information, such as brief, download link and size.
 
-We also include leader boards of some dataset to present research progress in the task oriented dialogue fields.
+We also include leader boards of popular dataset to present research progress in the task oriented dialogue fields.
 
 A Chinese intro & news for this project is available [here](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650793618&idx=1&sn=dc5e592c5d8b451531383350af76e254&chksm=8f477379b830fa6fb0b5909f6d6a3f85dae44e8a37aa0ab9763df354cabcc9224c211075f127&mpshare=1&scene=1&srcid=#rd)
 
@@ -31,7 +31,7 @@ This section records big updates to ease refer (See `./release_detail.md` or cli
 Contributions are welcomed, you are encouraged to:
 - Directly pull request
 - Send me new dataset info
-- Send me new experiment results from published paper.
+- Send me new experiment results from published paper or public code implements.
 
 ## <a name="leader"></a> Leader Boards
 
