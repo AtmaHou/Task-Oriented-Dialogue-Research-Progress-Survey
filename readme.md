@@ -21,6 +21,19 @@ We also include leader boards of popular dataset to present research progress in
 
 A Chinese intro & news for this project is available [here](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650793618&idx=1&sn=dc5e592c5d8b451531383350af76e254&chksm=8f477379b830fa6fb0b5909f6d6a3f85dae44e8a37aa0ab9763df354cabcc9224c211075f127&mpshare=1&scene=1&srcid=#rd)
 
+#### Refer to this repo:
+```
+@misc{MAML_Pytorch,
+  author = {Yutai Hou},
+  title = {Task-Oriented Dialogue Research Progress Survey},
+  year = {2018},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/AtmaHou/Task-Oriented-Dialogue-Research-Progress-Survey/}},
+  commit = {master}
+}
+```
+
 ## <a name="updates"></a> Updates
 This section records big updates to ease refer (See `./release_detail.md` or click links below):
 - [Updates 2020.7.30](https://github.com/AtmaHou/Task-Oriented-Dialogue-Dataset-Survey/blob/master/release_detail.md#20200730): Add 3 new datasets, re-claim 6 abnormal NLU results, refine layout.
@@ -236,13 +249,4 @@ Thanks for **public contributions** from:
 [Libo Qin](https://github.com/yizhen20133868)
 .
 
-## Refer to this repo:
-@misc{MAML_Pytorch,
-  author = {Yutai Hou},
-  title = {Task-Oriented Dialogue Research Progress Survey},
-  year = {2018},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/AtmaHou/Task-Oriented-Dialogue-Research-Progress-Survey/}},
-  commit = {master}
-}
+
