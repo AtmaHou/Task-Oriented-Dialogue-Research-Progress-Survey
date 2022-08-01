@@ -246,7 +246,8 @@ Thanks for **public contributions** from:
 [seeledu](https://github.com/seeledu),
 [Tony Lin](https://github.com/tnlin),
 [Jason Krone](https://github.com/jasonkrone),
-[Libo Qin](https://github.com/yizhen20133868)
+[Libo Qin](https://github.com/yizhen20133868),
+[HariiHe](https://github.com/HariiHe)
 .
 
 
