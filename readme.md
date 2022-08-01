@@ -15,9 +15,9 @@
 ## <a name="intro"></a>Introduction
 This repo is a dataset and methods survey for Task-oriented Dialogue.
 
-We investigated most existing dialogue datasets and summarize their basic information, such as brief, download link and size.
+We investigated most existing dialogue datasets and summarized their basic information, such as brief, download link and size.
 
-We also include leader boards of popular dataset to present research progress in the task oriented dialogue fields.
+We also included leader boards of popular dataset to present research progress in the task oriented dialogue fields.
 
 A Chinese intro & news for this project is available [here](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650793618&idx=1&sn=dc5e592c5d8b451531383350af76e254&chksm=8f477379b830fa6fb0b5909f6d6a3f85dae44e8a37aa0ab9763df354cabcc9224c211075f127&mpshare=1&scene=1&srcid=#rd)
 
@@ -48,7 +48,7 @@ Contributions are welcomed, you are encouraged to:
 
 ## <a name="leader"></a> Leader Boards
 
-The ranking is depended on published results of related papers. We are trying to keep it up-to-date. The ranking may be unfair because features used and train/dev set splitting in those papers may be different. However it shows a trend of research, and would be helpful for someone to start a project about task-oriented dialogue.
+The ranking is depended on published results of related papers. We are trying to keep it up-to-date. The ranking may be unfair because features used and train/dev set splitting in those papers may be different. However, it shows a trend of research, and would be helpful for someone to start a project about task-oriented dialogue.
 
 ### Dialogue State Tracking
 Dialogue state tacking task aims to predict or give representation of dialogue state,
