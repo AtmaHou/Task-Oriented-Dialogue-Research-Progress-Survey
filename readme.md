@@ -64,7 +64,7 @@ The new, corrected versions of the dataset are available at [MultiWOZ 2.1 (2019)
 
 | Model           | Joint Acc.  |  Slot Acc. | Paper / Source |
 | ------------- | :-----:| :-----:| :-----:|
-| CHAN (Shan et al, 2020)  | 52.68 | 97.69 | [A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking](https://arxiv.org/pdf/2006.01554.pdf) |
+| CHAN (Shan et al, 2020)  | 52.68 | 97.69 | [Retracted ~~A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking~~](https://aclanthology.org/2020.acl-main.563)) |
 | SOM-DST (BERT-large)* (Kim et al, 2020)  | 52.32 | - | [Efficient Dialogue State Tracking by Selectively Overwriting Memory](https://arxiv.org/pdf/1911.03906.pdf) |
 | SOM-DST*  (Kim et al, 2020) | 51.72 | - | [Efficient Dialogue State Tracking by Selectively Overwriting Memory](https://arxiv.org/pdf/1911.03906.pdf) |
 | SAS (Hu et al, 2020)  | 51.03 | 97.20 | [SAS: Dialogue State Tracking via Slot Attention and Slot Information Sharing](https://www.aclweb.org/anthology/2020.acl-main.567.pdf) |
